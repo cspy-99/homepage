@@ -1,0 +1,25 @@
+.article__content {
+    background-color: #fa0;
+    border-radius: 10px;
+}
+
+.dark .article__content {
+    background-color: #0af;
+}
+
+.article__photo {
+    margin: 40px auto 90px;
+    border-radius: 10px;
+}
+
+.article__link {
+    color: black;
+}
+
+.article__link:hover {
+    color: #0af;
+}
+
+.dark .article__link:hover {
+    color: #fa0;
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja pierwsza stronka:P</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/article.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <main>
+        <article class="article">
+            <header>
+                <h1 class="article__header">Kacper Popiński</h1>
+            </header>
+            <nav class="navigation">
+                <a href="#hobby" class="navigation__link">Zainteresowania i Hobby</a>
+                <a href="#moje-wycieczki" class="navigation__link">Moje najdłuższe wycieczki rowerowe
+                    (tabela)</a>
+                <a href="#czym-sie-zajmuje" class="navigation__link">Czym się zajmuję</a>
+            </nav>
+            <p>
+                <button class="button">Włącz <span class="themeName">ciemny</span> motyw</button>
+            </p>
+
+            <aside>
+                <img class="article__photo" width="300" src="https://i.postimg.cc/9MJ2BNPW/kacper.jpg"
+                    alt="Kacper Popiński">
+            </aside>
+            <section>
+                <h2 class="article__header">Podstawowe informacje</h2>
+                <p class="article__content">
+                    Hej, nazywam się <strong>Kacper</strong>, mam 23 lata, od urodzenia mieszkam
+                    w
+                    <b>Warszawie</b>.
+                </p>
+            </section>
+            <section id="hobby">
+                <h2 class="article__header">Zainteresowania i hobby</h2>
+                <p class="article__content">W <em>wolnym czasie</em> lubię majsterkować, pozwala mi to rozwijać swoje
+                    zdolności
+                    manualne i twórcze.
+                    Lubię
+                    też
+                    jeździć samochodem, zwłaszcza w nocy, kiedy otoczenie jest bardziej spokojne i klimatyczne. W
+                    kuchni
+                    również
+                    lubię eksperymentować, poznawać nowe przepisy i smaki. Uwielbiam też odkrywać nowe miejsca,
+                    dlatego
+                    często
+                    korzystam z Google Maps i dodaję swoje opinie na temat różnych miejsc. Najbardziej jednak lubię
+                    rowerowe
+                    wyprawy, zarówno te krótkie, jak i te dłuższe, które pozwalają mi bliżej poznać otaczający mnie
+                    świat.
+                    Podróżowanie rowerem daje mi wolność i satysfakcję z odkrywania nowych miejsc i doświadczania
+                    nowych
+                    przygód.</p>
+            </section>
+            <aside id="moje-wycieczki">
+                <div class="tableContainer">
+                    <table class="table">
+                        <caption class="table__caption">Moje najdłuższe wycieczki rowerowe
+                        </caption>
+                        <tr class="table__row">
+                            <th class="table__cell--header" scope="col">Cel</th>
+                            <th class="table__cell--header" scope="col">Dystans(km)</th>
+                            <th class="table__cell--header" scope="col">Czas(h)</th>
+                            <th class="table__cell--header" scope="col">Średnia prędkość(km/h)</th>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell--header" scope="row"><a class="table__link"
+                                    href="https://pl.wikipedia.org/wiki/Pasym"
+                                    title="Artykuł na Wikipedii, opowiadający o mieście Pasym">Pasym</a></th>
+                            <td class="table__cell">202,21</td>
+                            <td class="table__cell">10:46</td>
+                            <td class="table__cell">18,8</td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell--header" scope="row"><a class="table__link"
+                                    href="https://pl.wikipedia.org/wiki/Wyszk%C3%B3w"
+                                    title="Artykuł na Wikipedii, opowiadający o mieście Wyszków">Wyszków</a></th>
+                            <td class="table__cell">155,88</td>
+                            <td class="table__cell">7:48</td>
+                            <td class="table__cell" rowspan="2">20,0</td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell--header" scope="row"><a class="table__link"
+                                    href="https://pl.wikipedia.org/wiki/Garwolin"
+                                    title=" Artykuł na Wikipedii, opowiadający o mieście Garwolin">Garwolin</a></th>
+                            <td class="table__cell">124,64</td>
+                            <td class="table__cell">6:13</td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell--header" scope="row"><a class="table__link"
+                                    href="https://pl.wikipedia.org/wiki/Nowy_Dw%C3%B3r_Mazowiecki"
+                                    title="Artykuł na Wikipedii, opowiadający o mieście Nowy Dwór Mazowiecki">Nowy Dwór
+                                    Mazowiecki</a></th>
+                            <td class="table__cell">119,25</td>
+                            <td class="table__cell">5:45</td>
+                            <td class="table__cell">20,7</td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell--header" scope="row"><a class="table__link"
+                                    href="https://pl.wikipedia.org/wiki/Milan%C3%B3wek"
+                                    title="Artykuł na Wikipedii, opowiadający o mieście Milanówek">Milanówek</a></th>
+                            <td class="table__cell">99,42</td>
+                            <td class="table__cell">4:45</td>
+                            <td class="table__cell">20,9</td>
+                        </tr>
+                    </table>
+                </div>
+            </aside>
+            <section id="czym-sie-zajmuje">
+                <h2 class="article__header">Czym się zajmuję?</h2>
+                <p class="article__content">
+                    Do tej pory wykonywałem przyłącza światłowodowe <i><a class="article__link"
+                            href="https://pl.wikipedia.org/wiki/FTTH"
+                            title="Artykuł na Wikipedii rozwijający skrót">(FTTH)</a></i>, co pozwoliło mi
+                    zdobyć cenne
+                    doświadczenie
+                    w
+                    zakresie nowoczesnych technologii i urządzeń telekomunikacyjnych. Praca ta wymagała
+                    odpowiedzialności, precyzji
+                    i znajomości różnych technik i narzędzi, dzięki czemu mogłem rozwijać swoje
+                    umiejętności i
+                    kompetencje. Również
+                    jako monter klimatyzacji i wentylacji miałem okazję pracować z nowoczesnymi systemami
+                    wentylacyjnymi i
+                    klimatyzacyjnymi, co pozwoliło mi poszerzyć wiedzę na temat tej dziedziny i rozwinąć
+                    umiejętności
+                    montażu i
+                    serwisowania urządzeń tego typu. Obecnie chodzę do szkoły policealnej i studiuję techniki
+                    dentystyczne.Studiowanie tego kierunku wymaga cierpliwości i precyzji, co pozwala mi
+                    trenować moje
+                    zdolności
+                    manualne </p>
+            </section>
+        </article>
+    </main>
+    <footer class="footer">© 2023 All Rights Reserved.</footer>
+</body>
+
+</html>

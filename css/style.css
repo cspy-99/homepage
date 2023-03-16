@@ -1,0 +1,43 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.body {
+    text-align: center;
+    overflow-x: auto;
+    margin: 30px auto;
+    background: #fff;
+    display: table-cell;
+}
+
+.button {
+    color: #222;
+    background: #fff;
+    padding: 10px;
+    border-color: #222;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.dark .button {
+    color: #fff;
+    background-color: #222;
+    outline: 1px solid #fff;
+}
+
+.dark {
+    color: #fff;
+    background-color: #222;
+}
+
+.footer {
+    margin: 30px;
+}

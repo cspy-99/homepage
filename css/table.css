@@ -1,0 +1,58 @@
+
+.tableContainer {
+    overflow-x: auto;
+    max-width: 100%;
+    display:table-cell;
+}
+
+.table__caption {
+    background-color: #0af;
+    border-radius: 10px;
+    font-size: 1.5em;
+    margin: 4px;
+    font-weight: bold;
+}
+
+.table__cell {
+    border: 1px solid #ccc;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+
+.table__cell--header {
+    background-color: #fa0;
+    color: #222;
+    border-radius: 10px;
+}
+
+.dark .table__cell--header {
+    background-color: #0af;
+    color: #222;
+}
+
+.table__row:hover {
+    background-color: #0af
+}
+
+.dark .table__row:hover {
+    background-color: #fa0
+}
+
+.table__link {
+    text-decoration: none;
+    color: #222;
+}
+
+.table__link:hover {
+    color: #0af;
+}
+
+.dark .table__link:hover {
+    color: #fa0;
+}
+
+
+.dark .table__caption {
+    background-color: #fa0;
+}
