@@ -1,8 +1,7 @@
-
 .tableContainer {
     overflow-x: auto;
     max-width: 100%;
-    display:table-cell;
+    display: table-cell;
 }
 
 .table__caption {

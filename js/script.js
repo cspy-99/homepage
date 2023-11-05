@@ -1,12 +1,22 @@
-console.log("Witam każdego kto zajrzał do konsoli :P");
+{
+    const welcome = () => {
+        console.log("Witam każdego kto zajrzał do konsoli :P");
+    }
 
-let button = document.querySelector("button");
-let body = document.querySelector(".body");
-let themeName = document.querySelector(".themeName");
+    const onChangeBackgroundClick = () => {
+        const body = document.querySelector(".body");
+        const themeName = document.querySelector(".themeName");
 
-button.addEventListener("click", () => {
-    body.classList.toggle("dark");
+        body.classList.toggle("dark");
+        themeName.innerText = body.classList.contains("dark") ? "jasny" : "ciemny";
+    };
 
-    themeName.innerText = body.classList.contains("dark") ? "jasny" : "ciemny";
-});
+    const init = () => {
+        const button = document.querySelector("button");
+        button.addEventListener("click", onChangeBackgroundClick);
 
+        welcome();
+    };
+
+    init();
+};
