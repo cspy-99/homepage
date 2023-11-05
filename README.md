@@ -1,5 +1,5 @@
 # **Kacper Popiński - My page**
-![creaks](images/homepage-demo.gif)
+![site-gif](images/homepage-demo.gif)
 ## About Me Website 
 ## [Demo link](https://cspy-99.github.io/homepage/)
 This is a personal website designed to provide information about me. The website employs various technologies and techniques to create a visually appealing and user-friendly experience.
